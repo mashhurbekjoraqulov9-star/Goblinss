@@ -1,0 +1,20 @@
+.box{
+    display: flex;
+    width: 300px;
+    height: 450px;
+    background-color: blue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+@media (max-width: 670px){
+    .container{
+        flex-direction: column;
+    }
+    img{
+        max-width: 100%;
+    }
+}

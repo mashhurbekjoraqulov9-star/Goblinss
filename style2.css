@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+header{
+    background-color: rgb(17, 58, 17);
+    color: white;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around; 
+    gap: 50px;
+    list-style: none;
+    position: relative;
+}
+nav ul li  a{
+    text-decoration: none;
+    color: white;
+}
+.containerkatta{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn1{
+    background-color: green;
+    color:white
+}
+.btn2{
+    background-color: rgb(17, 58, 17);
+    color: white;
+    border-radius: 15px;
+}
+.ijtimoiy{
+    display: flex;
+    flex-direction: column;
+}
+.ijtimoiy i{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 15px;
+}
+.container2 h1{
+    font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 65px;
+}
+.container2 button{
+    height: 30px;  
+    border-radius: 30px;
+
+}
+.menu-icon{
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 670px){
+    nav ul {
+        position: absolute;
+        top: 10px;
+        right: 0;    
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        background-color: rgb(17, 58, 17);
+        padding: 20px 0;
+        gap: 15px;
+        align-items: center;
+    }
+    .containerkatta{
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+    }
+    .img{
+        max-width: 100%;
+        height: auto;
+    }
+   
+    .ijtimoiy{
+        flex-direction: row;
+    }
+    .menu-icon{
+        display: block;
+    }
+    nav ul.show{
+        display: flex;
+    }
+    
+}

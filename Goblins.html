@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="./style2.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <header class="header"> 
+        <nav>
+
+        <div id="menuBtn" class="menu-icon">
+            <i class="ri-menu-line"></i>
+        </div>
+
+        <h1>Coc-Stats</h1>
+        <ul id="menuList">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Clans</a></li>
+            <li><a href="">Town hall</a></li>
+            <li><a href="">Troops</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+        <div class="containerkatta"> 
+            <div class="ijtimoiy">
+        <a href=""><i class="ri-instagram-line"></i></a>
+        <a href=""><i class="ri-youtube-line"></i></a>
+        <a href=""><i class="ri-facebook-circle-line"></i></a>
+    </div>
+            <div class="container2">
+        <h2>#2Trending</h2>
+        <h3>Lead Supercell</h3>
+        <h1>GOBLINS</h1>
+        <p>Join millions of wortwide as you build your village, <br> raise a clan and compete in epic Clan Wars!!</p>
+        <button class="btn1">COMPARE</button>
+        <button class="btn2">WATCH GAMEPLAY</button>
+    </div>
+   
+    <div class="goblins">
+        <img src="./goblin.png" alt="">
+    </div>
+        </div>
+     </header>
+        <script>
+        const menuBtn = document.getElementById("menuBtn")
+        const menuList = document.getElementById("menuList")
+
+        menuBtn.addEventListener("click", ()=>{
+            menuList.classList.toggle("show")
+        })
+    </script>
+</body>
+</html>
